@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ppann57/_2023_programming/_2023_programming/00hello/output/testHW'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D88, symSize: 0x7C }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D88, symSize: 0x7C }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: __Z18generateChessboardPA8_i, symObjAddr: 0x7C, symBinAddr: 0x100003E04, symSize: 0xA4 }
+  - { offsetInCU: 0xD0, offset: 0xD0, size: 0x8, addend: 0x0, symName: __Z15printChessboardPA8_i, symObjAddr: 0x120, symBinAddr: 0x100003EA8, symSize: 0xB4 }
+...
