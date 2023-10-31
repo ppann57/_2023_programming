@@ -2,8 +2,7 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/ppann57/_2023_programming/_2023_programming/00hello/output/HW4'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _check_valid_move, symObjAddr: 0x0, symBinAddr: 0x100003B68, symSize: 0x188 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _check_valid_move, symObjAddr: 0x0, symBinAddr: 0x100003B68, symSize: 0x188 }
-  - { offsetInCU: 0xCB, offset: 0xCB, size: 0x8, addend: 0x0, symName: _print_valid_moves, symObjAddr: 0x188, symBinAddr: 0x100003CF0, symSize: 0x198 }
-  - { offsetInCU: 0x16D, offset: 0x16D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x320, symBinAddr: 0x100003E88, symSize: 0x88 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _canplaychess, symObjAddr: 0x0, symBinAddr: 0x100003860, symSize: 0x2DC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _canplaychess, symObjAddr: 0x0, symBinAddr: 0x100003860, symSize: 0x2DC }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2DC, symBinAddr: 0x100003B3C, symSize: 0x2F4 }
 ...
