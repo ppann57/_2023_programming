@@ -3,7 +3,6 @@
 int canplaychess(int chess[8][8],int row,int col,int color){
     //8個方向的坐標
     int directions[][2]={{-1,0},{-1,1},{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1}};
-//123456789
     //檢查每個方向
     for(int i=0;i<8;i++){
         int x=row+directions[i][0];
