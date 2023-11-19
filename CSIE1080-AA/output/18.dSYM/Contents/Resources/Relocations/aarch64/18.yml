@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ppann57/_2023_programming/_2023_programming/CSIE1080-AA/output/18'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _countSwaps, symObjAddr: 0x0, symBinAddr: 0x100003CE8, symSize: 0xC8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _countSwaps, symObjAddr: 0x0, symBinAddr: 0x100003CE8, symSize: 0xC8 }
+  - { offsetInCU: 0xBD, offset: 0xBD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC8, symBinAddr: 0x100003DB0, symSize: 0x1A0 }
+...
