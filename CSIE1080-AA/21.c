@@ -14,7 +14,7 @@ int is_prime(int num) {
 }
 
 // 交換兩數的函數
-void swap(int a, int b, int arr[], int N) {
+void swap(int a, int b, int arr[]) {
     int temp = arr[a];
     arr[a] = arr[b];
     arr[b] = temp;
@@ -45,7 +45,7 @@ int main() {
     for (int i = 0; i < N - 1; i++) {
         for (int j = 0; j < N - i - 1; j++) {
             if (custom_compare(numbers[j], numbers[j + 1]) > 0) {
-                swap(j, j + 1, numbers, N);
+                swap(j, j + 1, numbers);
             }
         }
     }

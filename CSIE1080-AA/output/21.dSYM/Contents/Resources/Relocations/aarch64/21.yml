@@ -2,9 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/ppann57/_2023_programming/_2023_programming/CSIE1080-AA/output/21'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _is_prime, symObjAddr: 0x0, symBinAddr: 0x100003B58, symSize: 0xA8 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _is_prime, symObjAddr: 0x0, symBinAddr: 0x100003B58, symSize: 0xA8 }
-  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0xA8, symBinAddr: 0x100003C00, symSize: 0x54 }
-  - { offsetInCU: 0xE1, offset: 0xE1, size: 0x8, addend: 0x0, symName: _custom_compare, symObjAddr: 0xFC, symBinAddr: 0x100003C54, symSize: 0xD4 }
-  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1D0, symBinAddr: 0x100003D28, symSize: 0x244 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _is_prime, symObjAddr: 0x0, symBinAddr: 0x100003B60, symSize: 0xA8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _is_prime, symObjAddr: 0x0, symBinAddr: 0x100003B60, symSize: 0xA8 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0xA8, symBinAddr: 0x100003C08, symSize: 0x50 }
+  - { offsetInCU: 0xD3, offset: 0xD3, size: 0x8, addend: 0x0, symName: _custom_compare, symObjAddr: 0xF8, symBinAddr: 0x100003C58, symSize: 0xD4 }
+  - { offsetInCU: 0x109, offset: 0x109, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1CC, symBinAddr: 0x100003D2C, symSize: 0x240 }
 ...
